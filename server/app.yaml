@@ -1,0 +1,12 @@
+runtime: nodejs
+env: flex
+
+env_variables:
+  # --REQUIRED--
+  DATABASE_URI: mongodb://127.0.0.1:27017/mousetrack
+  APP_ID: mousetrack_app
+  MASTER_KEY: mousetrack_master_key
+  SERVER_URL: http://mousetrack.s15.hkustvis.org/parse
+  # --OPTIONAL--
+  # FILE_KEY: <your-file-key>
+  # PARSE_MOUNT: /parse

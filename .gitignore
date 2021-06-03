@@ -102,3 +102,18 @@ dist
 
 # TernJS port file
 .tern-port
+vis_case
+screenshot
+ppt
+mousetrack/testplugin
+mousetrack/login.js
+mousetrack/cases
+images
+heatoverview
+server/public/js/collect.js
+server/public/js/vislab-analytic.js
+server/public/js/script.js
+server/public/index.html
+server/public/common
+vis_case/heatmap
+*.DS_Store

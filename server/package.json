@@ -1,0 +1,23 @@
+{
+    "name": "visualization",
+    "version": "1.4.0",
+    "description": "HKUST vis course visualization exercises.",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ParsePlatform/parse-server-example"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "express": "~4.11.x",
+        "kerberos": "~0.0.x",
+        "parse": "~1.8.0",
+        "parse-server": "*"
+    },
+    "scripts": {
+        "start": "node app.js"
+    },
+    "engines": {
+        "node": ">=4.3"
+    }
+}

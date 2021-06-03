@@ -1,0 +1,26 @@
+{
+    "name": "Visualization exercises",
+    "description": "HKUST vis course visualization.",
+    "logo": "./static/logo.png",
+    "keywords": ["Visualization", "mouse", "track", "HKUST", "Vislab"],
+    "env": {
+        "PARSE_MOUNT": {
+            "description": "Configure Parse API route.",
+            "value": "/parse"
+        },
+        "APP_ID": {
+            "description": "A unique identifier for your app.",
+            "value": "mousetrack_app"
+        },
+        "MASTER_KEY": {
+            "description": "A key that overrides all permissions. Keep this secret.",
+            "value": "mousetrack_master_key"
+        },
+        "SERVER_URL": {
+            "description": "URL to connect to your Heroku instance (update with your app's name + PARSE_MOUNT)",
+            "value": "http://mousetrack.hkustvis.org/parse"
+        }
+    },
+    "image": "heroku/nodejs",
+    "addons": ["mongolab"]
+}
